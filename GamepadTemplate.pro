@@ -53,7 +53,7 @@ exists($$XinputPath) {
 XinputIncludePath = $$(WindowsSdkDir)\\Include\\$$(WindowsSDKLibVersion)\\um
 # Find the include path
 exists($$XinputIncludePath) {
-    message(Found that include shit: $$XinputIncludePath)
+    message(Found Xinput Include: $$XinputIncludePath)
     INCLUDEPATH += $$XinputIncludePath
 }else{
     message(Missing XInputIncludePath: $$XinputIncludePath)
