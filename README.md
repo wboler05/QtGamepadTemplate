@@ -3,3 +3,5 @@ A quick gamepad server to easily access Xinput in Qt. I resorted to creating thi
 
 You will need Windows 10 SDK for Xinput:
 https://developer.microsoft.com/en-us/windows/downloads/windows-10-sdk
+
+Demo: https://youtu.be/J1lVPrVdAEU
