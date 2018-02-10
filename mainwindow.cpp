@@ -11,6 +11,8 @@ MainWindow::MainWindow(QWidget *parent) :
 
     connect(&GamepadServer::instance(), SIGNAL(stateUpdate(GamepadState, int)),
             this, SLOT(catchGamepadState(GamepadState, int)));
+
+    this->setWindowTitle(tr("Gamepad Server v0.1"));
 }
 
 MainWindow::~MainWindow()

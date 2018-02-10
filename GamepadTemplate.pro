@@ -65,12 +65,16 @@ SOURCES += \
         main.cpp \
         mainwindow.cpp \
     gamepadserver.cpp \
-    gamepadstate.cpp
+    gamepadstate.cpp \
+    controllergui.cpp \
+    bardrawer.cpp
 
 HEADERS += \
         mainwindow.h \
     gamepadserver.h \
-    gamepadstate.h
+    gamepadstate.h \
+    controllergui.h \
+    bardrawer.h
 
 FORMS += \
         mainwindow.ui
