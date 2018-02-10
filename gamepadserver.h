@@ -17,6 +17,9 @@ public:
         return *s_instance;
     }
 
+    // Gamepad update period
+    const int UPDATE_PERIOD_MS = 15;
+
 signals:
     void stateUpdate(const GamepadState & gps, const int & player);
 

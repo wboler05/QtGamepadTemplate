@@ -21,7 +21,7 @@ GamepadServer::GamepadServer()
 {
     QTimer * gameServerTimer = new QTimer(this);
     connect(gameServerTimer, SIGNAL(timeout()), this, SLOT(readState()));
-    gameServerTimer->start(15);
+    gameServerTimer->start(UPDATE_PERIOD_MS);
 }
 
 void GamepadServer::readState() {
